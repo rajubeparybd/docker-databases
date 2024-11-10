@@ -16,6 +16,11 @@ docker-compose up -d <database-compose-file-path>
 docker-compose -f ./mysql/docker-compose.yml up -d 
 ```
 
+## How to run PostgreSQL database
+```bash
+docker-compose -f ./postgresql/docker-compose.yml up -d 
+```
+
 ## Access Adminer
 - Go to `http://localhost:8080` to access Adminer portal.
 - Enter respective credentials after selecting system as MySQL and hit login
